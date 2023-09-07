@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Проверка знаний 5</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend><h2>Введите ваши данные для регистрации</h2></legend>
+            <label for="FIO">ФИО:</label>
+            <input type="text" id="FIO" placeholder="Иванов Иван Иванович" required/> <br><br>
+            <label for="login">Логин:</label>
+            <input type="text" id="login" placeholder="slrkkk_1" required/> <br><br>
+            <label for="pass">Пароль:</label>
+            <input type="password" id="pass" placeholder="Qwerty123" required/> <br><br>
+            <label for="pass">Подтверждение пароля:</label>
+            <input type="password" id="pass" placeholder="Qwerty123" required/> <br><br>
+            <label for="pochta">Адрес электроной почты:</label>
+            <input type="email" id="pochta" placeholder="pppplde.11@mail.ru" required> <br><br>
+            <label for="phone_number">Номер телефона:</label>
+            <input type="tel" id="phone"/> <br><br>
+            <label for="addres">Адрес:</label>
+            <input type="text" id="add"> <br><br>
+            <label for="addres">Пол:</label>
+            <input type="radio" name="pol" value="женский"> женский
+            <input type="radio" name="pol" value="мужской"> мужской<br><br>
+            <select id="colors" multiple>
+                <option value="rd">красный</option>
+                <option value="bl">синий</option>
+                <option value="ye">желтый</option>
+                <option value="gr">зелёный</option>
+                <option value="blk">чёрный</option>
+                <option value="wht">белый</option>
+            </select>
+            <br><br>
+            <label for="addit">Расскажите о себе</label><br>
+            <textarea id="addit" cols="40" rows="10"></textarea>
+            <br><br>
+            <input type="button" name="send" value="Отправить данные"/>
+            <input type="reset" name="c" value="Очистить форму"/>
+        </fieldset>
+    </form>
+</body>
+</html>
